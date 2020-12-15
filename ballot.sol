@@ -5,7 +5,7 @@ pragma solidity 0.7.5;
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/math/SafeMath.sol";
 import "https://github.com/Barandaur/prova/blob/main/events.sol";
-import "variables";
+import "https://github.com/Barandaur/prova/blob/main/variables.sol";
 
 contract Ballot is Ownable, Events, Variables {
     
