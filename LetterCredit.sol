@@ -1,7 +1,7 @@
 pragma solidity 0.7.5;
 //"SPDX-License-Identifier: UNLICENSED"
 
-import "ballot";
+import "https://github.com/Barandaur/prova/blob/main/ballot.sol";
 
 contract LetterCredit is Ballot {
     
