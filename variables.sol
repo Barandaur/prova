@@ -1,3 +1,6 @@
+pragma solidity 0.7.5;
+//"SPDX-License-Identifier: UNLICENSED"
+
 /*
 * @dev put variables here to ease the reading. Is this safe?
 */
