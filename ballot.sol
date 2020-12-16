@@ -84,4 +84,3 @@ contract Ballot is Ownable, Events, Variables {
     }
 }
     
-}
