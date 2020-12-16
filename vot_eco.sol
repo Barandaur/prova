@@ -5,8 +5,8 @@ pragma solidity 0.7.5;
 // VotingEndTime
 
 // need to click on the error on the left, and remove 'internal' from the constructor
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
-import "https://github.com/Barandaur/prova/blob/main/events.sol";
+//import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
+//import "https://github.com/Barandaur/prova/blob/main/events.sol";
 
 
 contract votingEcosystem is Ownable, Events {
