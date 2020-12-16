@@ -1,6 +1,3 @@
-pragma solidity 0.7.5;
-//"SPDX-License-Identifier: UNLICENSED"
-
 /*
 * @dev put variables here to ease the reading. Is this safe?
 */
@@ -21,7 +18,6 @@ contract Variables {
     uint no_compliance_votes = 0;
     uint compliance_votes = 0;
     
-    
 
     // voting deadline: set by the fintech (days), and starts when the seller 
     // uploads the documents.
@@ -30,8 +26,16 @@ contract Variables {
     // records when the seller uploads the documents
     uint _UploadTime;
     
+    
+    struct Voter {
+    bool voted;
+    uint vote;
+    }
+    mapping(address => Voter) voters;
+    
     // keep track of who voted
-    address[] voter_addresses;
+    address[] public voter_addresses;
+    address[] public winning_address;
 
     // -----------------------------------------  LetterCredit Variables  ----------------------------------------- //
     
@@ -64,6 +68,4 @@ contract Variables {
     // and of no compliance
     uint defect_fee; 
     uint compliance_fee; 
-    address[] winning_address;
-    
 }
